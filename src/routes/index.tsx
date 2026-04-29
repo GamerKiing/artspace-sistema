@@ -292,7 +292,7 @@ function BarbershopMembersDashboard() {
                   </div>
                   <div className="flex gap-2">
                     <Button className="flex-1 h-12 bg-green-600 hover:bg-green-700 text-white font-bold" onClick={() => { setSelectedMemberToRenew(m); setIsRenewOpen(true); }}><RefreshCcw className="size-4 mr-2" /> Renovar</Button>
-                    <Button variant="outline" className="flex-1 h-12 border-slate-200" onClick={() => window.open(`https://wa.me/${m.phone}`)}><MessageCircle className="size-4 mr-2 text-green-600" /> Zap</Button>
+                    <Button variant="outline" className="flex-1 h-12 border-slate-200" onClick={() => window.open(`https://wa.me/${m.phone}`)}><MessageCircle className="size-4 mr-2 text-green-600" /> WhatsApp</Button>
                   </div>
                 </div>
               ))}
